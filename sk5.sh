@@ -113,7 +113,7 @@ port_exist_check() {
 
 bbr_install() {
     [ -f "tcp.sh" ] && rm -rf ./tcp.sh
-    wget -O tcp.sh --no-check-certificate "https://raw.githubusercontent.com/ylx2016/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+    wget -O tcp.sh --no-check-certificate "https://gh-proxy.com/raw.githubusercontent.com/ylx2016/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 
 }
 
