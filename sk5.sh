@@ -264,7 +264,7 @@ menu() {
     echo -e "—————————————— 安装向导 ——————————————"
     echo -e "${Green} 搭建 站群多IP ss5 L2TP PPTP http ss v2ray 联系我${Font}"
 
-    echo -e "${Red} QQ1853479098  ${Font}"
+    echo -e "${Red} 三封tg  ${Font}"
 
     echo -e "${Red} 出售美国香港多IP站群 服务器 ${Font}"
     echo -e "${Green}1.${Font}  安装ss5"
