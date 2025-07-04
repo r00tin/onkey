@@ -264,7 +264,7 @@ fi
 # Create VPN credentials
 conf_bk "/etc/ppp/chap-secrets"
 cat > /etc/ppp/chap-secrets <<EOF
-"$VPN_USER" l2tpd "$VPN_PASSWORD" *
+"$VPN_USER" 1 "$VPN_PASSWORD" *
 EOF
 
 
