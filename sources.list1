@@ -1,4 +1,0 @@
-deb https://mirrors.huaweicloud.com/debian/ buster main non-free contrib
-deb-src https://mirrors.huaweicloud.com/debian/ buster main non-free contrib
-deb https://mirrors.huaweicloud.com/debian-security/ buster-security main
-deb-src https://mirrors.huaweicloud.com/debian-security/ buster-security main
