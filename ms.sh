@@ -4,6 +4,6 @@ bash <(curl -sSL https://linuxmirrors.cn/main.sh) \
   --use-intranet-source false \
   --install-epel true \
   --backup true \
-  --upgrade-software true \
+  --upgrade-software false \
   --clean-cache false \
   --ignore-backup-tips
