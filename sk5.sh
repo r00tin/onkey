@@ -205,7 +205,7 @@ systemctl start sockd.service
 connect() {
 	IP=$(curl -4  http://ip.sb)
         echo "--------------------------------"
-        echo "----安装完毕,联系人@jz168689----"
+        echo "----安装完毕,联系人九州@jz168689----"
         echo "--------------------------------"
 	echo "IP: $IP"
 	echo "端口：$port"
@@ -260,17 +260,12 @@ update_ss5() {
 
 menu() {
     echo -e "\t ss5 安装管理脚本 "
-    echo -e "\t---authored by 张三封---"
+    echo -e "\t---authored by 九州@jz168689---"
     echo -e "\thttps://www.baidu.com"
     echo -e "\tSystem Request:Debian 9+/Ubuntu 20.04+/Centos 7+"
-    echo -e "\t无法使用请联系我\n"
-
     echo -e "—————————————— 安装向导 ——————————————"
     echo -e "${Green} 搭建 站群多IP ss5 L2TP PPTP http ss v2ray 联系我${Font}"
-
-    echo -e "${Red} 三封tg  ${Font}"
-
-    echo -e "${Red} 出售美国香港多IP站群 服务器 ${Font}"
+    echo -e "${Red} 安装将自动进行 ${Font}"
     echo -e "${Green}1.${Font}  安装ss5"
     echo -e "${Green}2.${Font}  停止ss5"
     echo -e "${Green}3.${Font}  删除ss5"
