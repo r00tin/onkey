@@ -204,10 +204,14 @@ systemctl start sockd.service
 
 connect() {
 	IP=$(curl -4  http://ip.sb)
+        echo "--------------------------------"
+        echo "----安装完毕,联系人@jz168689----"
+        echo "--------------------------------"
 	echo "IP: $IP"
 	echo "端口：$port"
 	echo "账户：$user"
 	echo "密码：$passwd"
+        echo "--------------------------------" 
 	echo "
 IP: $IP
 端口：$port
