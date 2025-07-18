@@ -1,5 +1,5 @@
 bash <(curl -sSL https://linuxmirrors.cn/main.sh) \
-  --source mirrors.tuna.tsinghua.edu.cn \
+  --source mirrors.aliyun.com \
   --protocol http \
   --use-intranet-source false \
   --install-epel true \
